@@ -11,14 +11,14 @@ export const metadata: Metadata = {
 	},
 	description: "Full stack software engineer",
 	openGraph: {
-		title: "chronark.com",
+		title: "kutaibah.me",
 		description:
 			"Full stack software engineer",
 		url: "https://kutaibah.me",
 		siteName: "Kutaibah Halima",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://kutaibah.me/og.png",
 				width: 1920,
 				height: 1080,
 			},
