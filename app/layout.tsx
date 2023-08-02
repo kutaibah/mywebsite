@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 	},
 	description: "Full stack software engineer",
 	openGraph: {
-		title: "kutaibah.me",
+		title: "kutaibah halima",
 		description:
 			"Full stack software engineer",
 		url: "https://kutaibah.me",
