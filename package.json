@@ -9,26 +9,27 @@
     "fmt": "pnpm rome check . --apply-suggested && pnpm rome format . --write"
   },
   "dependencies": {
-    "@next/font": "^13.4.3",
-    "@next/mdx": "^13.4.3",
+    "@next/mdx": "14.1.0",
     "@types/node": "20.2.1",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
     "@upstash/redis": "^1.20.6",
     "@vercel/analytics": "^1.0.1",
+    "@vercel/functions": "^2.0.0",
     "contentlayer": "^0.3.0",
-    "framer-motion": "^10.12.12",
+    "framer-motion": "^11.18.2",
     "lucide-react": "^0.220.0",
     "markdown-wasm": "^1.2.0",
-    "next": "13.4.3",
+    "next": "14.1.0",
     "next-contentlayer": "^0.3.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-wrap-balancer": "^0.5.0",
     "rehype-autolink-headings": "^6.1.1",
-    "rehype-pretty-code": "^0.9.4",
+    "rehype-pretty-code": "^0.10.0",
     "rehype-slug": "^5.1.0",
     "remark-gfm": "^3.0.1",
+    "shiki": "0.14.5",
     "typescript": "5.0.4"
   },
   "devDependencies": {
@@ -36,6 +37,7 @@
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
+    "eslint-config-next": "14.1.0",
     "postcss": "^8.4.21",
     "postcss-nesting": "^11.2.2",
     "rome": "^11.0.0",
@@ -52,5 +54,9 @@
       "@opentelemetry/sdk-trace-node": "1.13.0",
       "@opentelemetry/semantic-conventions": "1.13.0"
     }
+  },
+  "overrides": {
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4"
   }
 }
